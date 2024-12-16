@@ -1,6 +1,8 @@
 body {
-  background-color: #e7f1f7;
+  background-image: url(https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
   font-family: roboto;
+  display: block;
+  width: auto;
 }
 
 h1 {
@@ -25,15 +27,16 @@ select {
   font-size: 18px;
   border-radius: 10px;
   padding: 10px;
-  color: #242c54;
+  color: #5662a1;
   opacity: 0.4;
-  border-color: #242c54;
+  border-color: #5662a1;
 }
 
 .container {
   max-width: 600px;
   margin: 60px auto;
   background: white;
+  opacity: 0.9;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
@@ -53,7 +56,7 @@ select {
 
 .date {
   opacity: 0.7;
-  color: #57589d;
+  color: #515267;
   font-family: roboto;
 }
 
