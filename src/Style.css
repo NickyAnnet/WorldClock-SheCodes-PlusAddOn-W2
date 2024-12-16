@@ -1,25 +1,33 @@
 body {
-  background-color: #f9f7fe;
-  font-family: sans-serif;
+  background-color: #e7f1f7;
+  font-family: roboto;
 }
 
 h1 {
   text-align: center;
-  font-family: sans-serif;
+  font-family: roboto;
+  font-weight: 600;
   font-size: 36px;
+  color: #242c54;
 }
 
 h2 {
   margin: 0 0 5px;
   font-size: 28px;
+  font-family: roboto;
+  font-weight: 500;
+  color: #242c54;
 }
 
 select {
   display: block;
   width: 100%;
   font-size: 18px;
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 10px;
+  color: #242c54;
+  opacity: 0.4;
+  border-color: #242c54;
 }
 
 .container {
@@ -45,21 +53,29 @@ select {
 
 .date {
   opacity: 0.7;
+  color: #57589d;
+  font-family: roboto;
 }
 
 .time {
   font-size: 48px;
   font-weight: bold;
+  color: #242c54;
+  font-family: roboto;
 }
 
 .time small {
-  font-size: 24px;
+  font-size: 20px;
   vertical-align: middle;
   line-height: 48px;
+  font-family: roboto;
 }
 
 footer {
   text-align: center;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.8);
+  font-family: roboto;
+  font-weight: 400;
+  color: #142647;
 }
